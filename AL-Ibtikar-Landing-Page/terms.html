@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <link rel="icon" href="img1/logo.png" type="image/png"> -->
+	<title>منصة الابتكار </title>
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap&subset=arabic" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="css/media-queries.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<style>
+		.bord:hover  {
+		border: 9px solid rgb(32, 136, 138);;
+		-webkit-box-shadow: 0px 0px 30px 3px rgba(195,195,195,1);
+		-moz-box-shadow: 0px 0px 30px 3px rgba(195,195,195,1);
+		box-shadow: 0px 0px 30px 3px rgba(195,195,195,1);
+	}
+		.image1 {
+	
+			position: relative;
+			width: 100%;
+	
+		}
+	
+	
+	
+		html,
+		body {
+			
+			margin: 0;
+			/* overflow-x: hidden */
+		}
+	
+		.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 5%;
+			background-color: rgb(182, 182, 182);
+			color: white;
+			text-align: center;
+		}
+	
+		.footerUp {
+			position: fixed;
+			left: 0;
+			bottom: 5%;
+			height: 20%;
+			width: 100%;
+			background-color: #0c570c;
+			color: white;
+			text-align: center;
+		}
+	
+		.image {
+			position: relative;
+	
+		}
+	
+		.image img {
+			width: 100%;
+			vertical-align: top;
+		}
+	
+		.image:after {
+			content: '\A';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.829);
+			opacity: 0.5;
+			transition: all 1s;
+			-webkit-transition: all 1s;
+		}
+	
+		.opacity {
+			opacity: 0.3;
+			filter: alpha(opacity=30);
+			/* For IE8 and earlier */
+		}
+	
+	
+		#footer-section {
+			background-color: #111111;
+		}
+	
+		#footer-section {
+			padding: 0;
+			background: #1c797a;
+			text-align: center;
+			color: #999;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+	
+		.footer-socials-section {
+			padding: 30px 0 0px;
+			border-bottom: 1px solid rgb(219, 219, 219);
+			text-align: center;
+		}
+	
+		ul.footer-socials {
+			list-style: none;
+			display: inline-block;
+			vertical-align: top;
+		}
+	
+		ul.footer-socials li {
+			float: none;
+			display: inline-block;
+			margin-right: 30px;
+			margin-bottom: 15px;
+		}
+	
+		ul.footer-socials li:last-child {
+			margin-right: 0;
+		}
+	
+		ul.footer-socials li a {
+			line-height: 36px;
+			display: inline-block;
+			vertical-align: top;
+		}
+	
+		ul.footer-socials li a i {
+			width: 36px;
+			height: 36px;
+			line-height: 34px;
+			display: inline-block;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			background: none;
+			color: #999;
+			border: 1px solid #999;
+			-webkit-transition: all 0.2s ease-in-out;
+			-moz-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			font-size: 14px;
+			vertical-align: top;
+		}
+	
+		ul.footer-socials li a:hover i {
+			background: #6eb48c;
+			color: #fff;
+			border-color: #6eb48c;
+		}
+	
+		ul.footer-socials li a span {
+			text-transform: uppercase;
+			font-size: 14px;
+	
+			font-weight: bold;
+			color: #999;
+			display: inline-block;
+			letter-spacing: 1px;
+			margin-left: 10px;
+			vertical-align: top;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+		}
+	
+		ul.footer-socials li a:hover span {
+			color: #6eb48c;
+		}
+	
+		.footer-social-remove-circle ul.footer-socials li a {
+			line-height: 20px;
+		}
+	
+		.footer-social-remove-circle ul.footer-socials li a i,
+		.footer-social-remove-circle ul.footer-socials li a:hover i {
+			border: none;
+			background: none;
+			padding: 0;
+			width: auto;
+			height: auto;
+			line-height: 20px;
+		}
+	
+		.footer-social-drop-line ul.footer-socials li a span {
+			margin: 5px 0 0;
+			display: block;
+		}
+	
+		.footer-social-remove-radius ul.footer-socials li a i {
+			border-radius: 0;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+		}
+	
+		.footer-social-remove-text ul.footer-socials li a span {
+			display: none;
+		}
+	</style>
+</head>
+
+<body style="background:#eee">
+
+	<!--================ Start Header Menu Area =================--> 
+	<header class="header_area fixed-top  "  id="top"  style="background:rgba(44, 130, 134, 0.8);">
+		<div class="main_menu ">
+			<nav class="navbar navbar-expand-lg navbar-light  ">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+ 
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand logo_h logodesk" 
+					style="font-size:26px; font-weight: bold; font-family: 'Cairo', sans-serif ;color:white ; "
+					href="index.html#top"> منصة الابتكار</a>
+					<div class="main-header-controls  " style="direction: rtl">
+							<!-- <a class="btn btn-light" href="#" style="font-family: 'Cairo', sans-serif  ; ">تسجيل</a> -->
+							 <a class="btn btn-light" style="font-family: 'Cairo', sans-serif  ; " href="#" onclick="myFunction()">دخول</a>
+							  <a style="font-family: 'Cairo', sans-serif  ; " class="btn btn-light" href="#">En</a>
+						  </div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+									<ul class="nav navbar-nav menu_nav ml-auto  " style="  text-align: right">
+										<li class="nav-item submenu dropdown"   >
+											<a href="#"
+												style="font-size:22px; font-weight: normal ;   font-family: 'Cairo', sans-serif  ; "
+												class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+												aria-haspopup="true" aria-expanded="false">
+												  <i class="fas fa-angle-down" style="font-size: 15px"></i>
+												مراحل التقديم والتقييم
+												
+			
+											</a>
+											<ul class="dropdown-menu" style="text-align: right; ">
+													<li class="nav-item">
+															<a
+																style="font-size:16px; font-weight: normal  ;  font-family: 'Cairo', sans-serif  ; "
+																class="nav-link" id="mqayeeshd" href="index.html#mqayees">مقاييس ومعايير</a></li>
+													<li class="nav-item"><a  
+														style="font-size:16px; font-weight: normal  ;  font-family: 'Cairo', sans-serif  ; "
+														class="nav-link" id="stepshd" href="index.html#steps">   مراحل التقديم على فكرة</a></li>
+											
+												<li class="nav-item">
+													<a
+														style="font-size:16px;font-weight: normal  ;   font-family: 'Cairo', sans-serif  ; "
+														class="nav-link" href="Terms.html">شروط خاصة</a></li>
+												<li class="nav-item"><a
+														style="font-size:16px;  font-weight: normal  ; font-family: 'Cairo', sans-serif  ; "
+														class="nav-link" href="#">عن المركز</a></li>
+														<li class="nav-item"><a
+															style="font-size:16px;  font-weight: normal  ; font-family: 'Cairo', sans-serif  ; "
+															class="nav-link" id="contacthd" href="#contact"> تواصل معنا  </a></li>
+											</ul>
+										</li>
+			
+										<li class="nav-item"><a class="nav-link"
+											style="font-size:22px;font-weight: normal  ; font-family: 'Cairo', sans-serif  ; "
+											href="index.html"  > تعاريف وأهداف </a></li>
+			
+										<li class="nav-item"><a class="nav-link" href="index.html#top"
+												style="font-size:22px;font-weight: normal  ; font-family: 'Cairo', sans-serif  ; "
+												href="packages.html"> الرئيسية </a></li>
+			
+												 
+														
+											 
+									</ul>
+											 <a class="navbar-brand logo_h headerBtn" 
+									style="font-size:26px; font-weight: bold; font-family: 'Cairo', sans-serif ;color:white ; "
+									href="index.html#top"> منصة الابتكار</a>
+			
+								
+			
+			
+								</div>
+							 
+											
+									 
+			
+							</div>
+							
+						</nav>
+			
+					 
+					</div>
+				</header>
+ 
+  <!-- شروط واحكام -->
+
+
+
+  <div class="section-2-container section-container sectionn-container-gray-bg" style="direction:rtl; margin-top: 90px">
+    <div class="container">
+      <div class="row" style="margin-top: 1%">
+        <div class="col-lg-12 iq-mtb-15" style="margin-top:1%;">
+          <div style="margin-top:1%; align-items: right">
+            <h2   style=" line-height:90px; font-family:'Cairo',sans-serif; text-align: right;color:#32a8aa">شروط واحكام</h2>
+             <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif; font-size:22px; text-align: right; color:black"> 1. يخضع استخدام المنصة لشروط وأحكام استخدام البوابة الداخلية لوزارة العدل "الوزارة"، وتعد هذه الشروط متممة ومكملة وملزمة لمستخدمي المنصة.</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">2. يتعهد مستخدم المنصة بأن يقتصر استخدامه لها على ما خصصت له، وأن يتجنب إساءة استخدام المنصة، بما في ذلك إرسال أي مواد أو برمجيات ضارة،</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">وإرسال معلومات أو مواد أو تعليقات مسيئة أو مخالفة للشريعة الإسلامية والأنظمة المرعية والآداب العامة .</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">3. يتعهد مقدم الفكرة بأنها فكرته وأنه لم ينتهك أي حق من حقوق الملكية الفكرية.</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">4. أن تكون الفكرة غير مخالفة لأحكام الشريعة الإسلامية والأنظمة المرعية والآداب العامة، ويتحمل كافة التبعات المترتبة على مخالفة ذلك.</p>
+             <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">5.  يوافق مقدم الفكرة وفي حكمه مقدم التعليق والاقتراح على منح جميع حقوق الملكية الفكرية المتعلقة بها إلى الوزارة حصريًا ،</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">ولا يحق لمقدمها مطالبة الوزارة بأي تعويضات أو مزايا، سواء عملت بها الوزارة كما هي أو بعد التعديل، أو لم تعمل بها</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">وللوزارة أن تنشرها أو تقدمها إلى أي جهة أخرى دون الرجوع إلى مقدم الفكرة.</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">6. تملك الوزارة جميع حقوق المنصة والأفكار المقدمة فيها ،</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">ولا يحق لأحد استخدام أي مواد أو معلومات مشتقة من المنصة أو نشرها أو نقلها أو توزيعها إلا بموافقة خطية من الوزارة .</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">7. للوزارة الإعلان عن الأفكار المقدمة وعن هوية مقدميها دون الحصول على إذن خطي مسبق .</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">8. لا يترتب على الوزارة أي التزام مالي أو معنوي ناتج عن استخدام هذه المنصة أو تقديم الأفكار فيها ،</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">ومع بذل الوزارة جهدها المعقول لصيانة المنصة والرقابة عليها ،</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">إلا أنها لا تتحمل أي خسارة أو ضرر قد ينتج عن الأعطال التقنية أو إساءة استخدام المستخدمين الآخرين بما في ذلك التعليقات المسيئة والروابط الضارة.</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">9. لفريق عمل المنصة الحق في إلغاء أو تمديد أو تعديل الأحكام والشروط والمعايير أو بعضها بدون إشعار مستخدمي المنصة، ولا يحق لهم الاعتراض على ذلك.</p>
+            <p class="text-black-50 iq-tw-6 description wow fadeInUp" style=" font-family:'Cairo',sans-serif;font-size:22px; text-align: right; color:black">10. كل نزاع ينشأ بشأن القواعد والأحكام يتم حله وديًا، وفي حال تعذر ذلك فيلجأ إلى الجهة القضائية المختصة في مدينة الرياض.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<!--================ End Blog Area =================-->
+
+	<!--================  Start Footer Area =================-->
+	<footer style="border-top: 5px solid #c2c2c2b0;" id="contact">
+		<div class="footer_top " style="background: rgb(224, 224, 224); padding-top:30px">
+			<div class="container">
+				<div class="row">
+				
+
+						<div class="col-md-4 ">
+								<div class="single-footer-widget wow fadeInUp">
+		
+									<div class="row">
+										<div class="col-12">
+											<h5 class="footer_title footerlist"
+												style=" color: #000000; font-family:'Cairo',sans-serif">روابط
+												مفيدة</h5>
+											<ul class="list footerlist" style="  font-family:'Cairo',sans-serif">
+												<li><a href="index.html" >الرئيسية</a></li>
+												<li><a href="index.html"   >تعاريف وأهداف</a></li>
+												<li><a href="index.html#steps">مراحل التقديم على فكرة</a></li>
+												<li><a href="index.html#mqayees">مقاييس ومعايير</a></li>
+												<li><a href="Terms.html"  > شروط خاصة</a></li>
+												<li><a href="#"> عن المركز </a></li>
+											</ul>
+										</div>
+		
+									</div>
+								</div>
+							</div>
+
+
+					<div class="col-md-4  footer-contact ">
+
+						<div class="single-footer-widget wow fadeInUp">
+							<h5 class="footer_title "
+								style=" text-align: center;color: #000000; font-family:'Cairo',sans-serif">تواصل معنا
+							</h5>
+							<ul class="list " style="text-align: center; line-height: 40px;font-family:'Cairo',sans-serif">
+								<li>
+									<p style="  text-align:center">  الرياض، المملكة
+										العربية السعودية </p>
+								</li>
+								<li>
+									<p style="  text-align:center">  الرمز البريدي:
+										11472
+									</p>
+
+								</li>
+								<li>
+									<p style="  text-align:center">  صندوق بريد:
+										7775
+
+									</p>
+
+								</li>
+								<li>
+									<p style="  text-align:center">
+										
+										
+										 
+										(+966) 11 405 7777
+										: الهاتف
+										<i class="fas fa-phone"></i> 
+									</p>
+								</li>
+								<li>
+
+									<p style="text-align:center">
+										  <a href="mailto:info@moj.gov.sa" style="color:black ">info@moj.gov.sa</a>
+										  : البريد الالكتروني
+										  <i class="fas fa-envelope"></i>
+
+										</p>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+
+
+					
+
+
+
+
+
+					<div class="col-md-4 footer-about wow fadeInUp">
+							<div class="single-footer-widget mail-chimp">
+	
+	
+								 
+								<img src="img1/logo.png" style=" width:150px; height:200px; margin: auto;    
+								display: block;" alt="">
+									
+							</div>
+						</div>
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer style="border-top: 5px solid #c2c2c2b0;" id="footer-section" class="penci-footer-social-media penci-lazy footer-social-remove-circle" itemscope="" itemtype="http://schema.org/WPFooter">
+			<div class="container">
+							<div class="footer-socials-section">
+						<ul class="footer-socials"> 
+								<li><a href="#" rel="nofollow" target="_blank"><i class="fab fa-facebook" style=" color: #fff;"></i><span style=" color: #fff;">Facebook</span></a></li>
+								<li><a href="#" rel="nofollow" target="_blank"><i class="fab fa-twitter" style=" color: #fff;"></i><span style=" color: #fff;">Twitter</span></a></li>
+								<li><a href="#" rel="nofollow" target="_blank"><i class="fab fa-instagram" style=" color: #fff;"></i><span style=" color: #fff;">Instagram</span></a></li>
+  							    <li><a href="#" rel="nofollow" target="_blank"><i class="fab fa-youtube" style=" color: #fff;"></i><span style=" color: #fff;">Youtube</span></a></li>
+ 																																																																																											</ul>
+					</div>
+											<div class="footer-logo-copyright footer-not-logo footer-not-gotop">
+						
+						
+											<div id="footer-copyright">
+											<p style="padding-top:22px;color: #fff;font-family:'Cairo',sans-serif; font-size: 18px">
+								&copy; 2019 منصة الابتكار
+
+						</p>
+					<a  href="#top">
+						<i class="fa fa-angle-up" id="arr" style=" color: #fff;"></i>
+
+					</a>	
+										<p style="margin-bottom:0; padding-bottom:10px;">
+										<!-- <a  style="  color: #fff;font-family:'Cairo',sans-serif; font-size: 14px" href="#top">
+											الرجوع للاعلى
+
+										</a>
+			
+									</p> -->
+							</div>
+													</div>
+							 
+					</div>
+		</footer>
+
+
+
+	</footer>
+
+
+
+
+<!--================ End Footer Area =================-->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/owl-carousel-thumb.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+	</script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+
+	<script>
+	$(function() {  
+		$("body").niceScroll({
+			horizrailenabled: false,
+			scrollspeed: 80, // scrolling speed
+ 			zindex: 50,
+			cursorborder: "",
+ 			cursorcolor: "rgb(35, 132, 134)",
+			border: "1px solid rgb(35, 132, 134);"
+		});
+	});
+
+	$("#arr").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#top").offset().top
+    }, 1200);
+});
+
+$("#mqayeeshd").click(function() {
+    $('html, body').animate({
+        scrollTop: $("index.html#mqayees").offset().top
+    }, 1200);
+});
+
+$("#stepshd").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#steps").offset().top
+    }, 1200);
+});
+$("#contacthd").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1200);
+});
+$("#def").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#top").offset().top
+    }, 1200);
+});
+	</script>
+
+</body>
+
+</html>
+
